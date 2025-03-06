@@ -9,7 +9,7 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
-  --background_image: url("../img/new_pic.jpg");
+  --background_image: url("../img/rm118-ken-12.jpg");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #000;
@@ -58,9 +58,10 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  display: grid;
+  place-items: center;
 }
 
 .flex_column_center {
@@ -90,7 +91,7 @@ body {
 /* Logo, Title and Description Codes */
 
 .header_img {
-  padding-top: 1em;
+  padding-top: 11em;
 }
 
 .header_img img {
