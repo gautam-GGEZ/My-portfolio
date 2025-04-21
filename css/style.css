@@ -9,7 +9,7 @@
 
   /* You can change the background color by typing the color code. (If you do not enter a background-image image, the background-color will be active.) */
   --background_color: #000;
-  --background_image: url("../img/rm118-ken-12.jpg");
+  --background_image: url("../img/image.avif");
 
   /* You can change the frame thickness and color of the picture by typing the number of pixels and the color code. */
   --image_border_color: #000;
@@ -92,6 +92,27 @@ body {
 
 .header_img {
   padding-top: 11em;
+}
+
+/* Animation and Transition Enhancements */
+body {
+  animation: fadeIn 1.2s ease-in;
+  transition: background-color 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.header_text h1,
+.header_text h2,
+.header_svg_item,
+.header_nav_menu_item,
+.main_text_item,
+.main_button_item,
+.main_small_button_item {
+  transition: all 0.3s ease;
 }
 
 .header_img img {
